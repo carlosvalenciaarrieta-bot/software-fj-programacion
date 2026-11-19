@@ -1,0 +1,11 @@
+[2026-11-19 02:39:06] [INFO] Cliente registrado: Cliente [C01]: Laura Gómez (laura@correo.com)
+[2026-11-19 02:39:06] [ERROR] Op 2 (Cliente inválido) controlada: Correo electrónico inválido: carloscorreo.com
+[2026-11-19 02:39:06] [INFO] Servicio creado: Sala 'Sala Juntas Norte' (Capacidad: 10 personas) - Estado: Disponible
+[2026-11-19 02:39:06] [INFO] Servicio creado: Equipo 'MacBook Pro M3' (Gama: Alta) - Estado: Disponible
+[2026-11-19 02:39:06] [ERROR] Op 5 (Servicio inválido) controlada: La tarifa base debe ser mayor a cero.
+[2026-11-19 02:39:06] [INFO] Servicio creado: Asesoría 'Seguridad Informática' (Área: Ciberseguridad) - Estado: Disponible
+[2026-11-19 02:39:06] [INFO] Reserva confirmada: Reserva [R01] | Laura Gómez | Sala 'Sala Juntas Norte' (Capacidad: 10 personas) | Estado: CONFIRMADA | Total: $214200.0
+[2026-11-19 02:39:06] [ERROR] Op 8 (Servicio ocupado) controlada: El servicio S01 no está disponible.
+[2026-11-19 02:39:06] [ERROR] Op 9 (Encadenamiento) controlada: Fallo al procesar los costos de la reserva. | Causa: El alquiler de equipos requiere mínimo 2 horas.
+[2026-11-19 02:39:06] [INFO] Reserva cancelada: R01
+[2026-11-19 02:39:06] [ERROR] Op 11 (Doble cancelación) controlada: La reserva ya se encuentra cancelada.
